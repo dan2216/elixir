@@ -1,0 +1,199 @@
+/*
+	Theme Name: HTML5 Blank
+	Theme URI: http://html5blank.com
+	Description: HTML5 Blank WordPress Theme
+	Version: 1.4.3
+	Author: Todd Motto (@toddmotto)
+	Author URI: http://toddmotto.com
+	Tags: Blank, HTML5, CSS3
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/********************************************************************/
+/***************************MAIN*************************************/
+/********************************************************************/
+html {font-size: 62.5%}
+
+body {
+		max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-family: Ubuntu, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Vollkorn, serif;
+  font-weight: bold;
+  color: #2D3E50;
+  text-transform: uppercase;
+}
+* {
+  transition: all .5s ease 0s;
+}
+a, a:hover, a:visited, a:active {
+	text-decoration: none;
+}
+main {
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.contentCategoryArticle, .contentNewArticle, #log div,.contentNav,.headerPics {
+  width: 1200px;
+}
+.newArticle, .categoryArticle, .contentHeaderPics, nav, #log {
+  padding: 0 15%;
+}
+/**********************header****************************************/
+
+#log
+{
+    background-color: #2C3E50;
+    text-align: left;
+}
+#log a, #log a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#log a:nth-child(4) {
+ margin-left: 700px;
+}
+.positionRelativText {
+  position: relative;
+  top: 100px;
+}
+.positionRelativText h1 {
+  font-size: 7rem;
+}
+header {
+  text-align: center;
+}
+#logo {
+  text-align: left;
+}
+nav {
+  background-color: #fff;
+  color: #7A8691;
+  text-align: left;
+}
+.navLien{
+  text-align: right;
+  text-transform: uppercase;
+}
+.navLien, #logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+nav a:nth-of-type(1) {
+  margin-left: 685px;
+}
+nav a {
+  margin-bottom: 15px;
+}
+nav a:hover{
+  color: #02B2CC;
+}
+.contentHeaderPics {
+  background-color: #DADCD9;
+}
+.headerPics {
+  background-color: #DADCD9;
+  height: 500px;
+}
+
+/***************************article**************************************/
+.newArticle {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  color: #334456;
+}
+.contentNewArticle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.picsNews {
+  background-color: #F6F8F9;
+  -webkit-box-shadow: 2px 10px 5px 0px rgba(0,0,0,0.33);
+  -moz-box-shadow: 2px 10px 5px 0px rgba(0,0,0,0.33);
+  box-shadow: 2px 10px 5px 0px rgba(0,0,0,0.33);
+  padding-bottom: 15px;
+  line-height: 15px;
+  font-size: 1.5rem;
+}
+.picsNews span {
+  color: #02B2CC;
+  font-weight: bold;
+}
+
+.contentCategoryArticle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.categoryArticle{
+  background-color: #DADCD9;
+  padding-bottom: 50px;
+}
+.categoryArticle, .newArticle {
+
+  text-align: center;
+}
+
+.categoryPics {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  margin: 10px;
+  background-color: #F6F8F9;
+  -webkit-box-shadow: 2px 10px 5px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 2px 10px 5px 0px rgba(0,0,0,0.15);
+  box-shadow: 2px 10px 5px 0px rgba(0,0,0,0.15);
+}
+.categoryPics div {
+  text-align: left;
+  color : #304153;
+  padding: 10px;
+}
+.category a:visited, .category a:active {
+  color: #304153;
+}
+.contentCategoryArticle{
+  margin-bottom: 30px;
+}
+#categoryButtom {
+  background-color: #02B2CC;
+  padding: 20px;
+  margin: 20px;
+  color: #fff;
+}
+#categoryButtom:hover {
+  background-color: #2c3e50 ;
+}
+
+/*********************Footer*******************************************/
+footer {
+  text-align: center;
+  background-color: #2D3E50;
+  color: #fff;
+  font-size: 1rem;
+  }
+  footer img {
+    margin: 15px;
+  }
+
+  @media screen and(min-with: 320px)  {
+    /******************************************************************/
+    .contentCategoryArticle, .contentNewArticle, #log div,.contentNav, .headerPics {
+      width: 80%;
+    }
+
+  }
