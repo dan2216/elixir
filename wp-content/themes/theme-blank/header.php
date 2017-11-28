@@ -26,8 +26,8 @@
 	<body <?php body_class(); ?>>
 		<main>
 			<header>
-				<div id="log">
-					<div class="">
+				<div id="log" class="container-fluid">
+					<div class="container">
 						<a href="#">Nous contacter |</a>
 						<a href="#">S'identifier |</a>
 						<a href="#">Créer un compte</a>
@@ -35,25 +35,22 @@
 					</div>
 				</div>
 				<nav>
-					<div class="contentNav">
-						<div id="logo">
-							<img src="<?php bloginfo('template_directory'); ?> /src/img/logo-elixir.png" alt="logo site">
-						</div>
-						<div class="navLien">
-							<a href="#">Promos flash</a>
-							<a href="#">Marques</a>
-							<a href="#">Hommes</a>
-							<a href="#">Femmes</a>
-							<a href="#">Accessoires</a>
+					<div id="contentNav" class="container-fluid">
+						<div class="container navLien">
+								<a href="#"><img src="<?php bloginfo('template_directory'); ?> /src/img/logo-elixir.png" alt="logo site"></a>
+								<a href="#">Promos flash</a>
+								<a href="#">Marques</a>
+								<a href="#">Hommes</a>
+								<a href="#">Femmes</a>
+								<a href="#">Accessoires</a>
 						</div>
 					</div>
 				</nav>
-				<div class="contentHeaderPics">
-					<div class="headerPics">
-						<img src=" <?php bloginfo('template_directory'); ?>/src/img/header.jpg" alt="headers pics"><!--
-							test
-					--></div><!--
-				--></div>
+				<div id="contentHeaderPics" class="container-fluid">
+					<div id="headerPics" class="container ">
+						<img src=" <?php bloginfo('template_directory'); ?>/src/img/header.jpg" alt="headers pics">
+					</div>
+				</div>
 
 
 			</header>
